@@ -1,4 +1,5 @@
 Requirements
+
     functional
 
     actions on tweet: post, delete, like/dislike, reply, search, retweeet
@@ -11,7 +12,8 @@ Requirements
     scalability: read-heavy , write to read ratio is estimated to be 1:1000, but high storage capacity still needed
     consistency: effective technique is needed to offer rapid feedback to the user in the same region but evetually all users worldwide will see the update
 
-Building blocks:
+Building blocks
+
     DNS
     Load balancers 
     Sequencers:  generate the unique IDs for the Tweets.
