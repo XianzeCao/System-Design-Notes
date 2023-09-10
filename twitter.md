@@ -27,3 +27,8 @@ Building blocks
     Monitoring 
 
 
+Detailed Design 
+    
+    Storage system: verious storage models used for different services to take advantage of each model.
+        Google could 
+
