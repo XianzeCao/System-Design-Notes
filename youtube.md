@@ -1,15 +1,42 @@
-#  Functional requirements
+# Requirements 
 
-1. stream videos
+## Functional requirements
 
-2. upload videos
+- stream videos
+- upload videos
+- search videos according to titles
+- Like and dislike videos
+- Add comments to videos
+- View thumbnails 
 
-3. search videos according to titles
+## Non-functional requirements
 
-4. Like and dislike videos
+The usual suspects but strong consistency is not required 
 
-5. Add comments to videos
+## Resources Estimation 
 
-6. View thumbnails
+Considering the large amount of videos uploaded every minute, the following will required:
 
-   
+- Storage needed to store uploaded and processed content 
+- Should be able to handle concurrent processing 
+
+Covert to numbers:
+
+- Total user : 1.5 billion
+- DAU 500 million
+- Average video length 5 min
+- Size of an average video before processing/encoding 600MB
+- Size of an average video after encoding 30MB
+
+# High level design
+
+![image-20230917120819033](/Users/zaccao/Library/Application Support/typora-user-images/image-20230917120819033.png)
+
+
+
+## 
+
+
+
+
+
